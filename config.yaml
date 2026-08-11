@@ -57,7 +57,7 @@ sources:
 
   pexels:
     enabled: true
-    api_key: ""
+    api_key: "57101465-df6de236d5f1131a98385b113"
     queries:
       - nature
       - mountains
