@@ -45,7 +45,7 @@ sources:
 
   unsplash:
     enabled: true
-    access_key: ""
+    access_key: "AtFE2ghF65Crx3hhieStkzY6BEXo2vQa60-Acd3C_uQ"
     queries:
       - nature
       - landscape
