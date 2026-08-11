@@ -190,7 +190,7 @@ facebook:
   page_id: ""
   access_token: ""
 
-telegram:
+telegram:false  
   bot_token: ""
   chat_id: ""
 
@@ -198,7 +198,7 @@ notifications:
   enabled: true
   console: true
   telegram:
-    enabled: true
+    enabled: false
   discord:
     enabled: false
     webhook_url: ""
@@ -222,12 +222,12 @@ security:
   request_delay_max: 3.0
 
 web_ui:
-  enabled: false
+  enabled: true
   host: 0.0.0.0
   port: 5000
   debug: false
-  secret_key: "change-this-to-random-secret"
+  secret_key: "random-secret"
   dark_mode: true
   # Render deploy ke liye: app ka public URL yahan daalein
   # (agar RENDER_EXTERNAL_URL env variable set hai toh wo priority lega)
-  public_url: ""
+  public_url: "https://insta-titan-v5t8.onrender.com"
