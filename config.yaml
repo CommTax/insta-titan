@@ -15,8 +15,8 @@ instagram:
 scheduler:
   enabled: true
   max_posts_per_day: 3
-  min_interval_minutes: 240
-  max_interval_minutes: 480
+  min_interval_minutes: 2
+  max_interval_minutes: 5
   active_hours_start: 10
   active_hours_end: 22
   timezone: Asia/Kolkata
