@@ -43,27 +43,106 @@ sources:
     limit: 50
     min_score: 100
 
-  unsplash:
-    enabled: true
-    access_key: "AtFE2ghF65Crx3hhieStkzY6BEXo2vQa60-Acd3C_uQ"
-    queries:
-      - nature
-      - landscape
-      - city
-      - wildlife
-      - technology
+unsplash:
+  enabled: true
+  access_key: "AtFE2ghF65Crx3hhieStkzY6BEXo2vQa60-Acd3C_uQ"
+  queries:
+    - "professional growth mindset"
+    - "career success journey"
+    - "work-life balance concept"
+    - "innovative team collaboration"
+    - "professional development idea"
+  per_page: 30
+  orientation: landscape
+
+communication_tax:
+  enabled: true
+  queries:
+    - "professional frustrated during business meeting"
+    - "professional feeling overlooked at work"
+    - "employee struggling to explain idea"
+    - "professional reflecting after meeting"
+
+interview:
+  enabled: true
+  queries:
+    - "professional job interview"
+    - "candidate answering interview question"
+    - "nervous professional job interview"
+    - "confident candidate interview"
+
+leadership:
+  enabled: true
+  queries:
+    - "executive speaking in meeting"
+    - "business leader communicating with team"
+    - "professional leadership meeting"
+
+thinking:
+  enabled: true
+  queries:
+    - "professional thinking deeply at work"
+    - "person organizing thoughts"
+    - "professional solving complex problem"
+
+transformation:
+  enabled: true
+  queries:
+    - "professional transformation career success"
+    - "confident professional leadership"
+    - "professional achieving career goal"
+ 
     per_page: 30
     orientation: landscape
 
   pexels:
     enabled: true
     api_key: "57101465-df6de236d5f1131a98385b113"
-    queries:
-      - nature
-      - mountains
-      - ocean
-      - forest
-      - architecture
+  queries:
+    - "professional career success"
+    - "confident business leader"
+    - "teamwork office concept"
+    - "career growth journey"
+    - "professional achievement goal"
+  per_page: 30
+  orientation: landscape
+
+communication_tax:
+  enabled: true
+  queries:
+    - "professional frustrated during business meeting"
+    - "professional feeling overlooked at work"
+    - "employee struggling to explain idea"
+    - "professional reflecting after meeting"
+
+interview:
+  enabled: true
+  queries:
+    - "professional job interview"
+    - "candidate answering interview question"
+    - "nervous professional job interview"
+    - "confident candidate interview"
+
+leadership:
+  enabled: true
+  queries:
+    - "executive speaking in meeting"
+    - "business leader communicating with team"
+    - "professional leadership meeting"
+
+thinking:
+  enabled: true
+  queries:
+    - "professional thinking deeply at work"
+    - "person organizing thoughts"
+    - "professional solving complex problem"
+
+transformation:
+  enabled: true
+  queries:
+    - "professional transformation career success"
+    - "confident professional leadership"
+    - "professional achieving career goal"
     per_page: 30
 
   pixabay:
